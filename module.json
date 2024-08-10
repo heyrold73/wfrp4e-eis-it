@@ -1,0 +1,117 @@
+{
+  "id": "wfrp4e-eis",
+  "title": "WFRP4e - Nemico nell'Ombra",
+  "description": "The first part of the epic Enemy Within campaign, gather your heroes as you take them from humble beginnings as penniless adventurers to the halls of the great and powerful, where every decision can change the fate of the Empire.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Heyrold",
+      "discord": "Heyrold#4406",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json"
+      }
+    ]
+  },
+  "scripts": [],
+  "styles": [],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "PNG (Nemico nell'Ombra)",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-eis/assets/banners/coach-and-horses.webp"
+    },
+    {
+      "name": "items",
+      "label": "Articoli (Nemico nell'Ombra)",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-eis/assets/banners/coach.webp"
+    },
+    {
+      "label": "Diario (Nemico nell'Ombra)",
+      "type": "JournalEntry",
+      "name": "journals",
+      "path": "packs/journals",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-eis/assets/banners/procession.webp"
+    },
+    {
+      "label": "Tabelle (Nemico nell'Ombra)",
+      "type": "RollTable",
+      "name": "tables",
+      "path": "packs/tables",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-eis/assets/banners/roadwardens.webp"
+    },
+    {
+      "label": "Scene (Nemico nell'Ombra)",
+      "type": "Scene",
+      "name": "scenes",
+      "path": "packs/scenes",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-eis/assets/banners/empire-city.webp"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "The Enemy Within",
+      "sorting": "m",
+      "color": "#38005e",
+      "folders": [
+        {
+          "name": "Enemy in Shadows",
+          "sorting": "m",
+          "color": "#5a2e16",
+          "packs": [
+            "actors",
+            "items",
+            "journals",
+            "tables",
+            "scenes"
+          ]
+        }
+      ]
+    }
+  ],
+  "languages": [],
+  "flags": {
+    "initializationPacks": [
+      "wfrp4e-eis.actors",
+      "wfrp4e-eis.journals",
+      "wfrp4e-eis.scenes",
+      "wfrp4e-eis.tables"
+    ],
+    "folder": {
+      "name": "Enemy in Shadows",
+      "sorting": "m",
+      "color": "#5a2e16"
+    }
+  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "./modules/wfrp4e-eis/assets/setup.webp"
+    }
+  ],
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": 11,
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11,
+    "maximum": 12
+  },
+  "url": "https://github.com/heyrold73/wfrp4e-eis-it",
+  "manifest": "https://github.com/heyrold73/wfrp4e-eis-it/releases/latest/download/module.json",
+  "download": "https://github.com/heyrold73/wfrp4e-eis-it/releases/latest/download/module.zip"
+}
