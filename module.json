@@ -65,12 +65,12 @@
   ],
   "packFolders": [
     {
-      "name": "The Enemy Within",
+      "name": "Il Nemico Dentro",
       "sorting": "m",
       "color": "#38005e",
       "folders": [
         {
-          "name": "Enemy in Shadows",
+          "name": "Nemico nell'Ombra",
           "sorting": "m",
           "color": "#5a2e16",
           "packs": [
@@ -93,7 +93,7 @@
       "wfrp4e-eis.tables"
     ],
     "folder": {
-      "name": "Enemy in Shadows",
+      "name": "Nemico nell'Ombra",
       "sorting": "m",
       "color": "#5a2e16"
     }
