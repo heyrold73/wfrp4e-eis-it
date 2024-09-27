@@ -1,0 +1,25 @@
+2024/09/27-06:49:09.264 4b48 Recovering log #362
+2024/09/27-06:49:09.272 4b48 Delete type=0 #362
+2024/09/27-06:49:09.272 4b48 Delete type=3 #358
+2024/09/27-07:20:25.743 3344 Level-0 table #369: started
+2024/09/27-07:20:25.768 3344 Level-0 table #369: 2086313 bytes OK
+2024/09/27-07:20:25.771 3344 Delete type=0 #367
+2024/09/27-07:27:51.178 3344 Level-0 table #371: started
+2024/09/27-07:27:51.183 3344 Level-0 table #371: 354586 bytes OK
+2024/09/27-07:27:51.186 3344 Delete type=0 #368
+2024/09/27-07:27:51.192 3344 Manual compaction at level-0 from '!folders!CvRwHJhAiYrfkRYG' @ 72057594037927935 : 1 .. '!journal.pages!tT80gcSmeK5oO5C2.u1LYv9582p9Z4Qr9' @ 0 : 0; will stop at '!journal.pages!ro7SIltM899Ogrk8.zSIDgKjd91ejpkWj' @ 18054 : 1
+2024/09/27-07:27:51.192 3344 Compacting 1@0 + 1@1 files
+2024/09/27-07:27:51.201 3344 Generated table #372@0: 68 keys, 149159 bytes
+2024/09/27-07:27:51.201 3344 Compacted 1@0 + 1@1 files => 149159 bytes
+2024/09/27-07:27:51.202 3344 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/27-07:27:51.202 3344 Delete type=2 #369
+2024/09/27-07:27:51.203 3344 Delete type=2 #371
+2024/09/27-07:27:51.203 3344 Manual compaction at level-0 from '!journal.pages!ro7SIltM899Ogrk8.zSIDgKjd91ejpkWj' @ 18054 : 1 .. '!journal.pages!tT80gcSmeK5oO5C2.u1LYv9582p9Z4Qr9' @ 0 : 0; will stop at (end)
+2024/09/27-07:27:51.203 3344 Manual compaction at level-1 from '!folders!CvRwHJhAiYrfkRYG' @ 72057594037927935 : 1 .. '!journal.pages!tT80gcSmeK5oO5C2.u1LYv9582p9Z4Qr9' @ 0 : 0; will stop at '!journal.pages!ro7SIltM899Ogrk8.zSIDgKjd91ejpkWj' @ 18190 : 1
+2024/09/27-07:27:51.203 3344 Compacting 1@1 + 1@2 files
+2024/09/27-07:27:51.215 3344 Generated table #373@1: 256 keys, 691267 bytes
+2024/09/27-07:27:51.215 3344 Compacted 1@1 + 1@2 files => 691267 bytes
+2024/09/27-07:27:51.216 3344 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/27-07:27:51.216 3344 Delete type=2 #365
+2024/09/27-07:27:51.217 3344 Delete type=2 #372
+2024/09/27-07:27:51.222 3344 Manual compaction at level-1 from '!journal.pages!ro7SIltM899Ogrk8.zSIDgKjd91ejpkWj' @ 18190 : 1 .. '!journal.pages!tT80gcSmeK5oO5C2.u1LYv9582p9Z4Qr9' @ 0 : 0; will stop at (end)
