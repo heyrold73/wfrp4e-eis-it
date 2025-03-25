@@ -2,7 +2,7 @@
   "id": "wfrp4e-eis-it",
   "title": "WFRP4e - Nemico nell'Ombra",
   "description": "Nella prima parte dell'epica campagna Il Nemico Dentro, raduna i tuoi eroi e accompagnali dalle loro umili origini di avventurieri senza un soldo alle sale dei grandi e dei potenti, dove ogni decisione può cambiare il destino dell'Impero.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "authors": [
     {
       "name": "Heyrold",
@@ -104,12 +104,12 @@
       "url": "./modules/wfrp4e-eis/assets/setup.webp"
     }
   ],
-  "minimumCoreVersion": "11",
-  "compatibleCoreVersion": 11,
+  "minimumCoreVersion": "12",
+  "compatibleCoreVersion": 12,
   "compatibility": {
-    "minimum": 11,
-    "verified": 11,
-    "maximum": 12
+    "minimum": 12,
+    "verified": 12,
+    "maximum": 13
   },
   "url": "https://github.com/heyrold73/wfrp4e-eis-it",
   "manifest": "https://github.com/heyrold73/wfrp4e-eis-it/releases/latest/download/module.json",
